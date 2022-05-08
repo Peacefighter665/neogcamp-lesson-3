@@ -2,6 +2,7 @@
 
 :root {
     --primary-color:blueviolet;
+    --dark-gray:#6b7280;
 }
 
 body{
@@ -74,3 +75,24 @@ border-bottom-left-radius: 1rem;
     font-weight:bold;
 }
 
+
+/** Header **/
+.Hero {
+    padding:2 rem;
+}
+
+.Hero .hero-image{
+    max-width: 350px;
+    margin:auto;
+    display:block;
+}
+
+.Hero .hero-heading{
+    color:var(--dark-gray);
+    padding-bottom:1rem;
+    padding-top:0rem;
+    text-align: center;
+}
+.Hero .hero-heading .heading-inverted{
+color:var(--primary-color);
+}
