@@ -2,6 +2,7 @@
 
 :root {
     --primary-color:blueviolet;
+    --off-white:#e2e8f0;
     --dark-gray:#6b7280;
 }
 
@@ -21,6 +22,7 @@ hr{
 .container-center{
     max-width:600px;
     margin:auto;
+    
 }
 
 /**  Links **/
@@ -96,3 +98,37 @@ border-bottom-left-radius: 1rem;
 .Hero .hero-heading .heading-inverted{
 color:var(--primary-color);
 }
+
+
+/** section **/
+.section {
+    padding:2rem;
+}
+
+.section h1{
+    text-align: center;
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
